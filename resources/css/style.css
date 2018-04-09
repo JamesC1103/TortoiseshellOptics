@@ -2,8 +2,12 @@
 
 html {
   font-size: 18px;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
   line-height: 1.4;
+  margin: 0px;
 }
 
 .flex {
@@ -81,6 +85,8 @@ h1 {
   justify-content: center;
 }
 
+/* Service Section */
+
 .service {
   display:flex;
   flex-direction: column;
@@ -100,3 +106,26 @@ h1 {
 .service img.paper-icon {
   width: 3.5rem;
 }
+
+/* Info Section */
+
+.title {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0px;
+}
+
+/* Footer Section */
