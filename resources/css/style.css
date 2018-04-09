@@ -7,7 +7,6 @@ html {
 
 body {
   line-height: 1.4;
-  margin: 0px;
 }
 
 .flex {
@@ -129,3 +128,16 @@ h1 {
 }
 
 /* Footer Section */
+
+footer {
+  background-color: azure;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
